@@ -1,0 +1,47 @@
+{
+  "name": "eslint-plugin-frontend",
+  "version": "0.0.0",
+  "description": "ESLint rules for React frontends",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Oscar Bartra",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "format": "prettier --write",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "@bubltechnology/customizable-commit-analyzer": "1.0.2-0",
+    "babel-eslint": "10.0.3",
+    "eslint": "~3.9.1",
+    "eslint-scope": "5.0.0",
+    "mocha": "^3.1.2",
+    "semantic-release": "8.2.0",
+    "semantic-release-cli": "3.2.5",
+    "prettier": "1.8.2",
+    "commitizen": "2.9.6",
+    "condition-circle": "1.5.0",
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "ISC",
+  "release": {
+    "verifyConditions": "condition-circle",
+    "analyzeCommits": "@bubltechnology/customizable-commit-analyzer"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
