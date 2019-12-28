@@ -1,5 +1,13 @@
 {
   "name": "eslint-plugin-frontend",
+  "bugs": {
+    "url": "https://github.com/obartra/eslint-plugin-frontend/issues"
+  },
+  "homepage": "https://github.com/obartra/eslint-plugin-frontend#readme",
+  "repository": {
+    "url": "https://github.com/obartra/eslint-plugin-frontend.git",
+    "type": "git"
+  },
   "version": "0.0.0",
   "description": "ESLint rules for React frontends",
   "keywords": [
