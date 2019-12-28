@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/obartra/eslint-plugin-frontend/tree/master.svg?style=shield)](https://circleci.com/gh/obartra/eslint-plugin-frontend/tree/master)
+[![license](https://img.shields.io/badge/license-ISC-brightgreen)](https://opensource.org/licenses/ISC)
+[![npm](https://img.shields.io/npm/v/eslint-plugin-frontend.svg)](https://www.npmjs.com/package/eslint-plugin-frontend)
+
 # eslint-plugin-frontend
 
 ESLint rules for React frontends
