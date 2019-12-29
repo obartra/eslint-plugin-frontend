@@ -1425,10 +1425,10 @@ concat-stream@^1.4.7, concat-stream@^1.5.0, concat-stream@^1.5.2, concat-stream@
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-condition-circle@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/condition-circle/-/condition-circle-1.6.0.tgz#b90f8a05a87179b705e3abb0a9b94ffb0221b2e8"
-  integrity sha512-dDsyBBtEtxELgUJJhju+GaTe5UZBVXWLOZwdCc8lk5syYIN2MGAeK1dzhqKkpCEtuVm13YjElX51ugrqTn6EpQ==
+condition-circle@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/condition-circle/-/condition-circle-2.0.2.tgz#1eda973569b2de24eff11179f228e7eadde80506"
+  integrity sha512-lX/6YGbAIFrxxI00y4ZfQYoF1dYSLwcu6Lk7lnnfxiIs/yS4/GBkS5rRxktivU444bRXaFBeVt/JM9sL9fX9SA==
   dependencies:
     "@semantic-release/error" "2.1.0"
     cross-spawn "5.1.0"
