@@ -1,7 +1,8 @@
 const { RuleTester } = require("eslint");
+const { resolve } = require("path");
 
 RuleTester.setDefaultConfig({
-  parser: "babel-eslint",
+  parser: resolve(__dirname, "../node_modules/babel-eslint"),
   parserOptions: {
     sourceType: "module"
   }
