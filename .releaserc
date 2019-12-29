@@ -11,6 +11,8 @@
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
       }
-    }]
+    }],
+    "@semantic-release/github",
+    "@semantic-release/npm"
   ]
 }
