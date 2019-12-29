@@ -24,7 +24,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
+    "requireindex": "~1.2.0"
   },
   "devDependencies": {
     "@bubltechnology/customizable-commit-analyzer": "1.0.2-0",
