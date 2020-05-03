@@ -15,10 +15,6 @@ jobs:
       - type: deploy
         name: release
         command: |
-          if [ "${CIRCLE_BRANCH}" == "master" ]; then
-            echo "Publishing latest release"
-            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
-            yarn semantic-release || true
-          else
-            echo "Skipping publication in non-release branch"
-          fi
+          echo "Publishing latest release"
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
+          yarn semantic-release || true
