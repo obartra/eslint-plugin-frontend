@@ -1,5 +1,6 @@
 {
   "verifyConditions": "condition-circle",
+  "branches": ["master"],
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "preset": "angular",
