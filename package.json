@@ -34,11 +34,11 @@
     "commitizen": "4.2.3",
     "condition-circle": "2.0.2",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "7.19.0",
+    "eslint": "7.20.0",
     "eslint-scope": "5.1.1",
     "mocha": "8.3.0",
     "prettier": "2.2.1",
-    "semantic-release": "17.3.8",
+    "semantic-release": "17.3.9",
     "semantic-release-cli": "5.4.3"
   },
   "engines": {
