@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "8.0.1",
-    "@semantic-release/github": "7.2.1",
-    "@semantic-release/npm": "7.1.1",
+    "@semantic-release/github": "7.2.2",
+    "@semantic-release/npm": "7.1.2",
     "babel-eslint": "10.1.0",
     "commitizen": "4.2.3",
     "condition-circle": "2.0.2",
