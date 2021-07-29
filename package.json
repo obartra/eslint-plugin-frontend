@@ -42,7 +42,7 @@
     "semantic-release-cli": "5.4.3"
   },
   "engines": {
-    "node": ">=v14.17.3"
+    "node": ">=v14.17.4"
   },
   "license": "ISC",
   "config": {
