@@ -34,7 +34,7 @@
     "commitizen": "4.2.4",
     "condition-circle": "2.0.2",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "7.31.0",
+    "eslint": "7.32.0",
     "eslint-scope": "6.0.0",
     "mocha": "9.0.3",
     "prettier": "2.3.2",
